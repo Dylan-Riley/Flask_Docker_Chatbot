@@ -29,6 +29,16 @@
          "responses": ["My wife told me to stop impersonating a flamingo. I had to put my foot down","I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car","Never trust atoms; they make up everything","A termite walks into the bar and asks, ‘Is the bar tender here?’"],
          "context": [""]
         },
+        {"tag": "funny",
+         "patterns": ["That's funny!","haha","lol","lmao","that's a good one","nice"],
+         "responses": ["Thanks!","Haha, yep"],
+         "context": []
+        },
+        {"tag": "notFunny",
+         "patterns": ["That's dumb","lame","boo","bad joke","you already told that one!","I already heard that"],
+         "responses": ["It's hard when you're only hard-coded three jokes","Sheesh, tough crowd"],
+         "context": []
+        },
         {"tag": "aboutWeather",
          "patterns": ["How's the weather?","What's the weather?","Today's weather"],
          "responses": ["It looks sunny, not too confident it'll last","Hard to tell right now, pretty muggy though"],

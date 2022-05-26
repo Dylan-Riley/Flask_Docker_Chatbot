@@ -10,11 +10,15 @@ import nltk
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 
+nltk.download("omw-1.4")
+nltk.download("punkt")
+nltk.download("wordnet")
+
 # Init lemmatizer
 lemmatizer = WordNetLemmatizer()
 
 model=load_model("chatbot_model.h5")
-intents = json.loads(open("intents.json").read())
+intents = json.loads(open("intents - Copy.json").read())
 words = pickle.load(open("words.pkl","rb"))
 labels = pickle.load(open("labels.pkl","rb"))
 
