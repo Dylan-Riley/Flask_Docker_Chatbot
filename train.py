@@ -19,7 +19,7 @@ labels = []
 documents = []
 ignore_words = ["?","!"]
 # Data is just included this time, no need to go fetch from the github
-data_file = open("intents.json").read()
+data_file = open("intents - Copy.json").read()
 intents = json.loads(data_file)
 
 # Tokenize words
