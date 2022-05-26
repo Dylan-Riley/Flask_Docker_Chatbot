@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","What are my options?"],
+         "responses": ["Admittedly not much right now, just chat, jokes, and tell you about the local coffee shop", "Basically just tell jokes and make idle chatter, oh and about the local coffee shop"],
+         "context": [""]
+        },
+        {"tag": "tellMeAJoke",
+         "patterns": ["Tell me a joke","What's a good joke?","Give me a joke","A joke then","another joke"],
+         "responses": ["My wife told me to stop impersonating a flamingo. I had to put my foot down","I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car","Never trust atoms; they make up everything","A termite walks into the bar and asks, ‘Is the bar tender here?’"],
+         "context": [""]
+        },
+        {"tag": "aboutWeather",
+         "patterns": ["How's the weather?","What's the weather?","Today's weather"],
+         "responses": ["It looks sunny, not too confident it'll last","Hard to tell right now, pretty muggy though"],
+         "context": [""]
+        },
+        {"tag": "whatsYourName",
+         "patterns": ["What's your name?","Do you have a name?","What are you called?"],
+         "responses": ["I don't have a name, can you believe it?","They didn't bother calling me anything"],
+         "context": [""]
+        },
+        {"tag": "hobby",
+         "patterns": ["Do you have any hobbies?","Do anything for fun?","How do you have fun?","Hobbies"],
+         "responses": ["I just enjoy existing","Having benign conversations"],
+         "context": [""]
+        },
+        {"tag": "creators",
+         "patterns": ["Who made you?","Where did you come from?","Who created you?","Did someone make you?"],
+         "responses": ["I came from Team 4 of this class","Team four made me"],
+         "context": [""]
+        },
+        {"tag": "procrastinate",
+         "patterns": ["Why are you so limited?","Is there anything else?","Why can't you do more?","You suck"],
+         "responses": ["Yeah, they really procrastinated on me","All of my responses were done last-minute while one of them were commiting time clock theft, sorry"],
+         "context": [""]
+        },
+        {"tag":"coffeeShop",
+         "patterns": ["What's this about a coffee shop?","Tell me about the coffee shop","Coffee shop?","What shop?"],
+         "responses": ["Earl's roast and boast, just on Broadway. I'm with them"],
+         "context" : [""]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["They're open every day 9am-9pm", "Our hours are 9am-9pm every day"],
+         "context" : [""]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["They accept VISA, Mastercard and AMEX", "They accept most major credit cards"],
+         "context" : [""]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["They're open every day from 9am-9pm", "Our hours are 9am-9pm every day"],
+         "context" : [""]
+        },
+        {"tag": "aboutCoffee",
+         "patterns": ["What coffee do they sell?", "What inventory do they have?","What's in stock?"],
+         "responses": ["They have a house blend, a nutty dark roast, and a hazelnut flavored light roast"],
+         "context": [""]
+        }
+   ]
+}
